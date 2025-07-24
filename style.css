@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Cornerita;
+    src: url(Cornerita.ttf);
+}
+
+body {
+    font-family: Cornerita;
+}
+
+header {
+    display: flex;
+    padding: 25px;
+    background-color: gray;
+    color: white;
+}
+
+main {
+    padding: 25px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+table {
+    table-layout: fixed;
+    width: 25%;
+    border-collapse: separate;
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+
+caption {
+    color: gray;
+    font-size: 10px;
+    text-align: right;
+    caption-side: bottom;
+    padding: 5px 0;
+}
+
+#enter-but {
+    color: gray;
+    border-color: black;
+    border-radius: 0px;
+}
+
+#sub-but {
+    border-color: black;
+    border-radius: 0px;
+}
+
+#output {
+    display: none;
+}
+
+footer {
+    padding: 25px;
+    color: white;
+    background-color: gray;
+}
